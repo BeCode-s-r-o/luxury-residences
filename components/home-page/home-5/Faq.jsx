@@ -37,7 +37,7 @@ const Faq = () => {
               type="button"
               data-bs-toggle="collapse"
               data-bs-target={"#collapse" + index}
-              aria-expanded={index === 1 ? "true" : "false"}
+              aria-expanded="false"
               aria-controls={"collapse" + index}
             >
               {item.question}
