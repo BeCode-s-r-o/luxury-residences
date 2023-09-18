@@ -1,4 +1,3 @@
-import FilterBox from "./FilterBox";
 
 const Hero = () => {
   return (
@@ -8,7 +7,7 @@ const Hero = () => {
           <div className="col-xl-10 m-auto">
             <div className="text-wrapper" data-aos="fade-up">
               <h1 className="hero-heading fw-500 text-white text-center">
-                Luxus, ktorý si môže <br/> dovoliť&nbsp;
+                Luxus, ktorý si môže&nbsp;dovoliť&nbsp;
                 <span className="position-relative">
                    každý.
                   <img
