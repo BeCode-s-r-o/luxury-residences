@@ -58,7 +58,7 @@ const Header6 = () => {
           {/* /.right-widget */}
 
           <MainMenu />
-          <div className="right-widget d-flex align-items-center order-lg-3">
+          <div className="right-widget d-md-flex align-items-center order-lg-3 d-none">
           <Link
               href="/contact"
               className="signup-btn-four fw-500 tran3s d-none d-lg-block"
