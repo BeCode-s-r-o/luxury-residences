@@ -1,12 +1,50 @@
-import PortfolioV1 from "./portfolio-v1";
-import PortfolioV3 from "./portfolio-v3";
-import PortfolioV4 from "./portfolio-v4";
-import PortfolioV5 from "./portfolio-v5";
+import Seo from "../../components/common/Seo";
+import DefaultFooter from "../../components/footer/DefaultFooter";
+import PortfolioTopTitle from "../../components/portfolio/PortfolioTopTitle";
+import PortfolioGallery5 from "../../components/portfolio/PortfolioGallery5";
+import CallToAction from "../../components/portfolio/CallToAction";
+import Header6 from "../../components/header/Header6";
 
-const Portfolio = () => {
-    return (
-        <PortfolioV5 />
-    );
-}
+const Index = () => {
+  return (
+    <>
+      <Seo pageTitle="Luxury residences | Portfolio" />
+      {/* <!-- 
+      =============================================
+      Theme Default Menu
+      ============================================== 	
+      --> */}
+      <Header6 />
 
-export default Portfolio;
+      {/* 
+        =============================================
+        Feature Section Fifty One
+        ============================================== 
+        */}
+      <PortfolioTopTitle />
+
+      {/* <!-- 
+        =============================================
+        Portfolio Gallery Three
+        ============================================== 
+        --> */}
+      <PortfolioGallery5 />
+
+      {/*
+			=====================================================
+				Fancy Short Banner Twelve
+			=====================================================
+			*/}
+      <CallToAction />
+
+      {/* 
+        =============================================
+        Contact Section One
+        ============================================== 
+        */}
+      <DefaultFooter />
+    </>
+  );
+};
+
+export default Index;

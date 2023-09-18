@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const FancySection = () => {
   return (
     <div className="fancy-feature-fortyNine pt-110 pb-90 xl-pt-70 lg-pb-60 zn2 position-relative">
@@ -27,7 +29,7 @@ const FancySection = () => {
         alt="shape"
         className="lazy-img shapes shape-one"
       />
-      <a href="/contact" className="more-btn tran3s" data-aos="fade-left">
+      <Link href="/contact" className="more-btn tran3s" data-aos="fade-left">
         <img
           src="/images/shape/shape_167.svg"
           alt="shape"
@@ -38,7 +40,7 @@ const FancySection = () => {
           alt="shape"
           className="lazy-img arrow"
         />
-      </a>
+      </Link>
       {/*<div className="clip-text-two fw-bold wow fadeInUp">Luxury residences</div>*/}
     </div>
   );

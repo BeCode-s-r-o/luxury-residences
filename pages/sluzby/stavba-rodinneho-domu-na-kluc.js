@@ -1,11 +1,8 @@
 import Seo from "../../components/common/Seo";
-import DefaultFooter from "../../components/footer/DefaultFooter";
-import ProgressBar from "./service-details/ProgressBar";
 import Faq from "../../components/home-page/home-5/Faq";
 import Social from "./service-details/Social";
 import Link from "next/link";
 import Header6 from "../../components/header/Header6";
-import ContactUs from "../../components/home-page/home-4/ContactUs";
 import CallToActions from "../../components/home-page/home-5/CallToActions";
 import Footer from "../../components/home-page/home-5/footer";
 
@@ -139,15 +136,15 @@ const ProjektoveSluzby = () => {
                                     <h4 className="tx-dark mb-15">Naše služby</h4>
                                     <ul className="style-none">
                                         <li>
-                                            <a href="/sluzby/projektove-sluzby">Projektové služby</a>
+                                            <Link href="/sluzby/projektove-sluzby">Projektové služby</Link>
                                         </li>
                                         <li>
-                                            <a href="/sluzby/rekonstrukcie-na-kluc">Rekonštrukcie na kľuč
-                                            </a>
+                                            <Link href="/sluzby/rekonstrukcie-na-kluc">Rekonštrukcie na kľuč
+                                            </Link>
                                         </li>
                                         <li className="current-page">
-                                            <a href="/sluzby/stavba-rodinneho-domu-na-kluc">Stavba rodinného domu na
-                                                kľúč</a>
+                                            <Link href="/sluzby/stavba-rodinneho-domu-na-kluc">Stavba rodinného domu na
+                                                kľúč</Link>
                                         </li>
                                     </ul>
                                 </div>
