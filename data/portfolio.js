@@ -1,0 +1,106 @@
+module.exports = [
+  {
+    id: 1,
+    category: "project",
+    name: "Rekonštrukcia bytu",
+    tag: "Rekonštrukcia bytu",
+    image: "/images/portfolio/ivanka-pri-dunaji/img_1.jpg",
+    projectInfo: {
+      date: "20 september, 2021",
+      clientName: "Ivanka pri Dunaji",
+      projectType: "Rekonštrukcia bytu",
+    },
+    images: [
+        "/images/portfolio/ivanka-pri-dunaji/img_1.jpg",
+        "/images/portfolio/ivanka-pri-dunaji/img_2.jpg",
+        "/images/portfolio/ivanka-pri-dunaji/img_3.jpg",
+        "/images/portfolio/ivanka-pri-dunaji/img_4.jpg",
+    ]
+  },
+  {
+    id: 2,
+    category: "project",
+    name: "Rekonštrukcia bytu",
+    tag: "Rekonštrukcia bytu",
+    image: "/images/portfolio/jakubak/img_7.jpg",
+    projectInfo: {
+      date: "20 september, 2021",
+      clientName: "Ivanka pri Dunaji",
+      projectType: "Rekonštrukcia bytu",
+    },
+    images: [
+"/images/portfolio/jakubak/img_1.jpg",
+"/images/portfolio/jakubak/img_5.jpg",
+"/images/portfolio/jakubak/img_2.jpg",
+"/images/portfolio/jakubak/img_3.jpg",
+"/images/portfolio/jakubak/img_4.jpg",
+"/images/portfolio/jakubak/img_6.jpg",
+"/images/portfolio/jakubak/img_7.jpg",
+"/images/portfolio/jakubak/img_8.jpg",
+"/images/portfolio/jakubak/img_9.jpg",
+"/images/portfolio/jakubak/img_10.jpg",
+"/images/portfolio/jakubak/img_11.jpg",
+"/images/portfolio/jakubak/img_12.jpg",
+"/images/portfolio/jakubak/img_13.jpg",
+"/images/portfolio/jakubak/img_14.jpg",
+"/images/portfolio/jakubak/img_15.jpg",
+    ]
+  },
+  {
+    id: 3,
+    category: "project",
+    name: "Rekonštrukcia bytu",
+    tag: "Rekonštrukcia bytu",
+    image: "/images/portfolio/novakova/01.jpg",
+    projectInfo: {
+      date: "20 september, 2021",
+      clientName: "Ivanka pri Dunaji",
+      projectType: "Rekonštrukcia bytu",
+    },
+    images: [
+"/images/portfolio/novakova/01.jpg",
+"/images/portfolio/novakova/02.jpg",
+"/images/portfolio/novakova/03.jpg",
+"/images/portfolio/novakova/04.jpg",
+"/images/portfolio/novakova/05.jpg",
+"/images/portfolio/novakova/06.jpg",
+"/images/portfolio/novakova/07.jpg",
+"/images/portfolio/novakova/08.jpg",
+"/images/portfolio/novakova/09.jpg",
+"/images/portfolio/novakova/10.jpg",
+"/images/portfolio/novakova/11.jpg",
+    ]
+  },
+  {
+    id: 1,
+    category: "project",
+    name: "Rekonštrukcia bytu",
+    tag: "Rekonštrukcia bytu",
+    image: "/images/portfolio/sipkova/img_3.jpg",
+    projectInfo: {
+      date: "20 september, 2021",
+      clientName: "Ivanka pri Dunaji",
+      projectType: "Rekonštrukcia bytu",
+    },
+    images: [
+"/images/portfolio/sipkova/img_1.jpg",
+"/images/portfolio/sipkova/img_2.jpg",
+"/images/portfolio/sipkova/img_3.jpg",
+"/images/portfolio/sipkova/img_4.jpg",
+"/images/portfolio/sipkova/img_5.jpg",
+"/images/portfolio/sipkova/img_6.jpg",
+"/images/portfolio/sipkova/img_7.jpg",
+"/images/portfolio/sipkova/img_8.jpg",
+"/images/portfolio/sipkova/img_9.jpg",
+"/images/portfolio/sipkova/img_10.jpg",
+"/images/portfolio/sipkova/img_11.jpg",
+"/images/portfolio/sipkova/img_12.jpg",
+"/images/portfolio/sipkova/img_13.jpg",
+"/images/portfolio/sipkova/img_14.jpg",
+"/images/portfolio/sipkova/img_15.jpg",
+"/images/portfolio/sipkova/img_16.jpg",
+        ]
+  },
+
+
+];
