@@ -122,7 +122,7 @@ const ProjektoveSluzby = () => {
                                             <Link href="/sluzby/projektove-sluzby">Projektové služby</Link>
                                         </li>
                                         <li>
-                                            <Link href="/sluzby/rekonstrukcie-na-kluc">Rekonštrukcie na kľuč
+                                            <Link href="/sluzby/rekonstrukcia-na-kluc">Rekonštrukcie na kľuč
                                             </Link>
                                         </li>
                                         <li>
